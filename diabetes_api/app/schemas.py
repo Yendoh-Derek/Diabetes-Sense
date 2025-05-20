@@ -14,3 +14,4 @@ class PredictionInput(BaseModel):
 class PredictionOutput(BaseModel):
     risk_score: float
     shap_values: List[float]
+    explanation: str
